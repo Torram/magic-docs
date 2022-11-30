@@ -1,0 +1,8 @@
+{
+  "label": "Inventory",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Component for inventory management of cards."
+  }
+}

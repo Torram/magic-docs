@@ -1,0 +1,8 @@
+{
+  "label": "Cards",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Components for card items management"
+  }
+}

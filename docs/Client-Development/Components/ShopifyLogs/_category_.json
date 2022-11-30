@@ -1,0 +1,8 @@
+{
+  "label": "ShopifyLogs",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "Shared and commonly used components"
+  }
+}

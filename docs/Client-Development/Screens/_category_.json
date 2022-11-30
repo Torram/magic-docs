@@ -1,0 +1,8 @@
+{
+  "label": "Screens",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Main components of the project"
+  }
+}

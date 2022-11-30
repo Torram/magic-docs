@@ -1,0 +1,8 @@
+{
+  "label": "Inventory Logs",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Component for inventory changelog."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Boxes",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Boxes",
+    "description": "Components used to handle set boxes."
+  }
+}
