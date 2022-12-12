@@ -1,8 +1,0 @@
-{
-  "label": "Hooks/Auth",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "Components for register and login of users"
-  }
-}

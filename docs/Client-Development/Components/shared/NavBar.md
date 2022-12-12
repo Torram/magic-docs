@@ -12,7 +12,7 @@ import { UserType } from '../../types/UserType';
 
 export default function NavBar({ user }: { user: UserType }): JSX.Element {
     return (
-        <Navbar expand='lg' className='w-100'>
+        <Navbar bg="primary" variant="dark" expand='lg' className='w-100'>
             <Navbar.Brand>{user.name}</Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse id='basic-navbar-nav'>

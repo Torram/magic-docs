@@ -1,8 +1,0 @@
-{
-  "label": "Atoms",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Component to handle multiple orderItem changes."
-  }
-}

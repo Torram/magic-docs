@@ -1,8 +1,0 @@
-{
-  "label": "Hooks/Inventory",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "Custom hooks used to support Inventory components."
-  }
-}
