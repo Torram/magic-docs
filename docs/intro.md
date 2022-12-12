@@ -41,5 +41,20 @@ cd magic-development
 npm start
 ```
 
-The `npm run start` command builds the website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+The `npm run start` command builds the website locally and serves it through a development server, ready for you to view at **http://localhost:3000/**.
 
+## Start Server
+
+### Development Server
+```bash
+npm run dev
+```
+The `npm run dev` command builds the API server linked to development Mongo database, ready to be visited at **http://localhost:5001/api**. 
+
+### Production Server
+:::danger Use with caution
+:::
+```bash
+npm run prod
+```
+The `npm run prod` command builds the API server linked to production Mongo database, ready to be visited at **http://localhost:5001/api**. 
