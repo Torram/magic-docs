@@ -43,7 +43,7 @@ export async function getCardByID(
 ```
 
 ### getCardsForSet
-Function that returns partial values of all of the cards for a set.
+Function that returns spccific values of all of the cards for a set.
 ```tsx
 import Card, { CardModelType } from '../models/Card';
 import { Types, Document } from 'mongoose';
@@ -122,7 +122,7 @@ async function createCard(
 ```
 
 ### createCardsForSet
-Function that creates an array of cards with variations (foil, non-foil, foil-etched) for a set.
+Function that creates an array of cards for a set.
 ```tsx
 import { ApiCardType } from '../servertypes/ApiCardType';
 import { Types, Document } from 'mongoose';
@@ -180,7 +180,7 @@ export async function createCardsForSet(set: SetType): Promise<
 ```
 
 ### createSKUforCard
-Function that creates the SKU for a given card, based on its variant and set.
+Function that creates the SKU for a given card, based on its variant, set and number.
 ```tsx
 import { ApiCardType } from '../servertypes/ApiCardType';
 import { SetType } from '../servertypes/SetType';
@@ -206,7 +206,7 @@ async function createSKUforCard(card: ApiCardType, set: SetType, foil: boolean, 
 ```
 ## Order
 ### orderCards
-Function that order an array of cards alphabetically.
+Function that order an array of cards by number.
 ```tsx
 import { CardType } from '../servertypes/CardType'
 
@@ -325,7 +325,7 @@ async function getPriceForCard(
 ```
 
 ### updatePriceForCardByID
-Function that updates price for specified card id.
+Function that updates price for specified card.
 ```tsx
 import { Types, Document } from 'mongoose';
 import Card, { CardModelType } from '../models/Card';
@@ -440,7 +440,7 @@ async function filterCardsInArray(newCards: ApiCardType[]): Promise<ApiCardType[
 ```
 
 ### findIfCardIsDualFacedAndItsAlreadyInSet
-Helper function that checks if a card is dual faced.
+Helper function that checks if a card is dual faced and is in the array.
 ```tsx
 import { ApiCardType } from '../servertypes/ApiCardType';
 
@@ -516,7 +516,7 @@ function getColorsForCard(mtgCard: ApiCardType): string[] {
 ```
 
 ### createSharedDataForCard
-Helper function that sets common data for variants of the same card.
+Helper function that sets general data for variants of the same card.
 ```tsx
 import { ApiCardType } from '../servertypes/ApiCardType';
 import { SetType } from '../servertypes/SetType';

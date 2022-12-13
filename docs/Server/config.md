@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-This file configures the environments through the _dotenv_library.
+This file configures the environments through the _dotenv_ library.
 
 ```tsx
 import dotenv from 'dotenv'; //variables de entorno

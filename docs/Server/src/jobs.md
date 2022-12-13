@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 
 ## starCityCodes.job
-Function that uses _cron_ library to schedule inventory update of Shopify e-commerce. We obtain all of the cards in sets and lists, update prices and finally, update Shopify inventory.
+Function that uses _cron_ library to schedule inventory update of Shopify e-commerce at 00:00 o'clock. We obtain all of the cards in sets and lists, update prices and finally, update Shopify inventory.
 
 ```tsx
 import cron from 'node-cron';

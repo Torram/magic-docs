@@ -267,7 +267,7 @@ async function getVariantNameWithFormattedCardNumber(
 ```
 
 ### getVariantNameForMTGCard
-
+Function that returns the formatted name of a card, from Star City Games website.
 ```tsx
 import { getVariantNameForCardFromSoup, createSoupForCard } from './SoupsController';
 import { SetType } from '../servertypes/SetType';

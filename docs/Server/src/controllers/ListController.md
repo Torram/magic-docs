@@ -63,7 +63,7 @@ export async function updateList(
 ```
 
 ### verifyPosition
-Function that checks if a card is in a list (binder).
+Function that checks a card's position in a page of a list (binder).
 ```tsx
 function verifyPosition(value: number): boolean {
     const valueString = value.toString();
@@ -135,7 +135,7 @@ export async function createOrderItem(
 ```
 
 ### updateOrderItem
-Function that updates an **_[OrderItem](../serverTypes)_** in a list (binder) with a new card.
+Function that updates an **_[OrderItem](../serverTypes)_** values.
 ```tsx
 import mongoose, { Types } from 'mongoose';
 import List, { ListModelType } from '../models/List';
@@ -165,7 +165,7 @@ export async function updateOrderItem(
 ```
 
 ### updateOrderItems
-Function that updates multple **_[OrderItems](../serverTypes)_** in a list, with new cards.
+Function that updates multple **_[OrderItems](../serverTypes)_** values in a list.
 ```tsx
 import List, { ListModelType } from '../models/List';
 import mongoose, { Types } from 'mongoose';

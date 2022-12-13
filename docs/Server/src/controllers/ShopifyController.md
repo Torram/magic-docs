@@ -181,7 +181,7 @@ export async function syncShopifyWithInventoryItemState(inventoryItem: Inventory
 ```
 
 ### syncShopifyWithCardState
-Function that receives a card and set, or a list, or a boolean as parameters, and updates card's data in Shopify, or creates a new producto in Shopify if parameters cannot be found.
+Function that receives a card and set, or a list, or a boolean as parameters, and updates card's data in Shopify, or creates a new product in Shopify if parameters cannot be found.
 ```tsx
 import { CardType } from '../servertypes/CardType';
 import { SetType } from '../servertypes/SetType';
@@ -313,7 +313,7 @@ async function updateCardProductVariantPriceInShopify(card: CardType): Promise<C
 ```
 
 ### getCardInventoryLevelInShopify
-Function that gets the specified card's level from Shopify's inventory. Level is the actual quantity of a product, for a particular location.
+Function that gets the specified card's inventory from Shopify. Level is the actual quantity of a product, for a particular location.
 ```tsx
 import { SHOPIFY_URL, LOCATION_ID, SHOPIFY_WEBHOOK_KEY } from '../constants/constants';
 import { CardType } from '../servertypes/CardType';
@@ -332,7 +332,7 @@ async function getCardInventoryLevelInShopify(card: CardType): Promise<any> {
 ```
 
 ### updateCardInventoryLevelInShopify
-Function that updates a card's level in Shopify's inventory.
+Function that updates a card's inventory in Shopify.
 ```tsx
 import { SHOPIFY_URL, LOCATION_ID, SHOPIFY_WEBHOOK_KEY } from '../constants/constants';
 import { CardType } from '../servertypes/CardType';
@@ -388,7 +388,7 @@ async function fetchURL(url: string, body: Object | undefined, method: string): 
 ```
 
 ### verifyWebhook
-Function that validates if a webhook is valid.
+Function that checks if a webhook is valid.
 ```tsx
 export function verifyWebhook(payload: any, hmac: string): boolean {
     const message = payload.toString();
