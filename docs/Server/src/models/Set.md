@@ -1,4 +1,4 @@
-Structure for a set in server.
+Structure for a set in database.
 
 ```tsx
 import mongoose, { Schema } from 'mongoose';

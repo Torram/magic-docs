@@ -1,8 +1,8 @@
-Structure for a list object (binder) in server.
+Structure for a list object (binder) in database.
 
 ```tsx
 import mongoose, { Schema, Types } from 'mongoose';
-import { OrderItemType } from '../servertypes/OrderItemType';
+import { OrderItemType } from '../databasetypes/OrderItemType';
 
 export interface ListModelType {
     name: string;

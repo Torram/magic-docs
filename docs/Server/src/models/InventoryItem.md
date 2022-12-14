@@ -1,4 +1,4 @@
-Structure for a InventoryItem object in server.
+Structure for a InventoryItem object in database.
 
 ```tsx
 import mongoose, { Schema, Types } from 'mongoose';

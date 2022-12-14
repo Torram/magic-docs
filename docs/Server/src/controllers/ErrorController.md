@@ -1,5 +1,5 @@
 ### errorCallBack
-This function establish the error structure for Response of the server.
+This function establishes the error structure for Responses of the server.
 ```tsx
 import { Response } from 'express';
 

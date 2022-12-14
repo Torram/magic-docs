@@ -1,4 +1,4 @@
-Structure for a price object in server.
+Structure for a price object in database.
 
 ```tsx
 import mongoose, { Schema } from 'mongoose';

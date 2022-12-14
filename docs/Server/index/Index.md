@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-Main file of server. This file uses _Express JS_ framework as server, using selected environment, and _Mongo DB_ as database through mongoose library. This file also establish cors configuration.
+Main file of server. This file uses _Express JS_ framework as server, using the selected environment, and _Mongo DB_ as database through the mongoose library. This file also establishes cors configuration.
 
 ```tsx
 import { Request, Response } from 'express';

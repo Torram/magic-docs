@@ -36,7 +36,7 @@ function formatCardNumber(cardNumber: string, modifyNumber: boolean, leadingZero
 ```
 
 ### formatURLForCard
-This function receives a cards' data and uses it to create a valid formatted URL for Star City Games website.
+This function receives a cards' data and uses it to create a valid formatted URL for the Star City Games website.
 ```tsx
 function formatURLForCard(
     cardName: string,

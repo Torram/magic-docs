@@ -21,7 +21,7 @@ export async function getBoxesForSet(
 }
 ```
 ### createBox
-Function that gets an array of boxes of a set for set the next number of the new box, then, creates a new box and adds it to set.
+Function that gets the consecutive number for a box of a set, then, creates a new box and adds it to the same set.
 ```tsx
 import Box, { BoxModelType } from '../models/Box';
 import { getSet } from './SetsController';

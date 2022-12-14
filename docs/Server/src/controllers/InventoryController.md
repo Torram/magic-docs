@@ -103,7 +103,7 @@ export async function getInventoryMaxQuantityForCard(cardID: Types.ObjectId): Pr
 ```
 
 ### getInventoryItemForCardInBox
-Function that returns an **_[InventoryItem](../models/InventoryItem)_** object of a cards in a box.
+Function that returns an **_[InventoryItem](../models/InventoryItem)_** object of a card in a box.
 ```tsx
 import { Types, Document } from 'mongoose';
 import { InventoryItemType } from '../servertypes/InventoryItemType';
@@ -118,7 +118,7 @@ export async function getInventoryItemForCardInBox(
 ```
 
 ### getInventoryItemForCardInList
-Function that returns an **_[InventoryItem](../models/InventoryItem)_** object of a cards in a list (binder).
+Function that returns an **_[InventoryItem](../models/InventoryItem)_** object of a card in a list (binder).
 ```tsx
 import { Types, Document } from 'mongoose';
 import { InventoryItemType } from '../servertypes/InventoryItemType';

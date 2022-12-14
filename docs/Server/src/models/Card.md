@@ -1,4 +1,4 @@
-Structure for a card object in server.
+Structure for a card object in database.
 
 ```tsx
 import mongoose, { Schema, Types } from 'mongoose';

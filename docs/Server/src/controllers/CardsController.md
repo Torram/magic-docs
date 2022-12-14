@@ -43,7 +43,7 @@ export async function getCardByID(
 ```
 
 ### getCardsForSet
-Function that returns spccific values of all of the cards for a set.
+Function that returns specific values of all of the cards for a set.
 ```tsx
 import Card, { CardModelType } from '../models/Card';
 import { Types, Document } from 'mongoose';
@@ -206,7 +206,7 @@ async function createSKUforCard(card: ApiCardType, set: SetType, foil: boolean, 
 ```
 ## Order
 ### orderCards
-Function that order an array of cards by number.
+Function that order an array of cards by card's number.
 ```tsx
 import { CardType } from '../servertypes/CardType'
 
@@ -325,7 +325,7 @@ async function getPriceForCard(
 ```
 
 ### updatePriceForCardByID
-Function that updates price for specified card.
+Function that updates the price for specific card.
 ```tsx
 import { Types, Document } from 'mongoose';
 import Card, { CardModelType } from '../models/Card';
@@ -440,7 +440,7 @@ async function filterCardsInArray(newCards: ApiCardType[]): Promise<ApiCardType[
 ```
 
 ### findIfCardIsDualFacedAndItsAlreadyInSet
-Helper function that checks if a card is dual faced and is in the array.
+Helper function that checks if a card is dual faced and is in the array of cards.
 ```tsx
 import { ApiCardType } from '../servertypes/ApiCardType';
 
@@ -516,7 +516,7 @@ function getColorsForCard(mtgCard: ApiCardType): string[] {
 ```
 
 ### createSharedDataForCard
-Helper function that sets general data for variants of the same card.
+Helper function that sets general data for a card in a set. 
 ```tsx
 import { ApiCardType } from '../servertypes/ApiCardType';
 import { SetType } from '../servertypes/SetType';

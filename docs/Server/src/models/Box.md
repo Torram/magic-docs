@@ -1,4 +1,4 @@
-Structure for a box in server.
+Structure for a box in database.
 
 ```tsx
 import mongoose, { Schema, Types } from 'mongoose';

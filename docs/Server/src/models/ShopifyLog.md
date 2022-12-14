@@ -1,4 +1,4 @@
-Structure for a ShopifyLog in server.
+Structure for a ShopifyLog in database.
 
 ```tsx
 import mongoose, { Schema } from 'mongoose';

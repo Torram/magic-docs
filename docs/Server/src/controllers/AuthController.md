@@ -31,7 +31,7 @@ export async function signUp(
 ```
 
 ### signIn
-Function that log in a user if email and password matches with a register in database.
+Function that log in a user if email and password matches with a register in the database.
 ```tsx
 import { generateTokens } from './TokenController';
 
@@ -114,7 +114,7 @@ export function generateDataResponse(
 ```
 
 ### getUserType
-Helper function that returns the type of privilegies of a user.
+Helper function that returns the type of privileges of a user.
 ```tsx
 import { ADMIN_KEY } from '../constants/constants';
 
