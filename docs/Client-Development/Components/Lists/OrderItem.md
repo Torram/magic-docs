@@ -4,7 +4,7 @@ Component that shows the actual value of a card in a list (binder), and allows t
 
 ### OrderItem
 
-Main function of the component. This function sets the initial state of a card value, and the page that holds it. Creates a container with a _Form_ element with an input for card value, an _ErrorIndicator_ element and a _LoadingButton_ for save changes.
+Main function of the component. This function sets the initial state of a card value, and the page that holds it. Creates a container with a _Form_ element with an input for a card's value, an _ErrorIndicator_ element and a _LoadingButton_ for save changes.
 
 ### checkIfNumberHasDecimalPoint
 

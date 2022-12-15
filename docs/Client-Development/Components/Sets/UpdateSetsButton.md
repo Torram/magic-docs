@@ -1,4 +1,4 @@
-Component that updates the list of all sets in database, to add new sets.
+Component that updates the list of all sets in the database, to add new sets.
 
 ```tsx
 import React from 'react';

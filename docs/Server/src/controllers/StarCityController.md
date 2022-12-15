@@ -137,7 +137,7 @@ export async function getUpdatedPriceForCard(
 ```
 
 ### getPriceWithFormattedCardNumber
-Returns price of specific card, from a _Soup_ object of Star City Games Website or null if cannot find it.
+Returns price of specific card, from a _Soup_ object of the Star City Games Website or null if cannot find it.
 ```tsx
 import Price, { PriceModelType } from '../models/Price';
 import { Types, Document } from 'mongoose';
@@ -267,7 +267,7 @@ async function getVariantNameWithFormattedCardNumber(
 ```
 
 ### getVariantNameForMTGCard
-Function that returns the formatted name of a card, from Star City Games website.
+Function that returns the formatted name of a card, from the Star City Games website.
 ```tsx
 import { getVariantNameForCardFromSoup, createSoupForCard } from './SoupsController';
 import { SetType } from '../servertypes/SetType';

@@ -1,4 +1,4 @@
-This component creates a _container_ element with all of the sets in database. 
+This component creates a _container_ element with all of the sets in the database. 
 
 ```tsx
 import { useSets } from '../hooks/Sets/useSets';

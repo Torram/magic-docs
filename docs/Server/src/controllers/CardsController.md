@@ -71,7 +71,7 @@ export async function getFullCardsForSet(
 ```
 
 ### getAllCards
-Function that returns partial values of all of the cards in database.
+Function that returns partial values of all of the cards in the database.
 ```tsx
 import Card, { CardModelType } from '../models/Card';
 import { Types, Document } from 'mongoose';
@@ -86,7 +86,7 @@ export async function getAllCards(): Promise<
 
 ## Create
 ### createFoilCard
-Function that gets data for a card from API, then creates a foil version of that card in database.
+Function that gets data for a card from API, then creates a foil version of that card in the database.
 ```tsx
 import { ApiCardType } from '../servertypes/ApiCardType';
 import { SetType } from '../servertypes/SetType';
@@ -105,7 +105,7 @@ async function createFoilCard(
 ```
 
 ### createCard
-Function that gets data for a card from API, then creates a card in database.
+Function that gets data for a card from API, then creates a card in the database.
 ```tsx
 import { ApiCardType } from '../servertypes/ApiCardType';
 import { SetType } from '../servertypes/SetType';
@@ -206,7 +206,7 @@ async function createSKUforCard(card: ApiCardType, set: SetType, foil: boolean, 
 ```
 ## Order
 ### orderCards
-Function that order an array of cards by card's number.
+Function that order an array of cards by cards numbers.
 ```tsx
 import { CardType } from '../servertypes/CardType'
 
@@ -325,7 +325,7 @@ async function getPriceForCard(
 ```
 
 ### updatePriceForCardByID
-Function that updates the price for specific card.
+Function that updates the price for a specific card.
 ```tsx
 import { Types, Document } from 'mongoose';
 import Card, { CardModelType } from '../models/Card';
@@ -516,7 +516,7 @@ function getColorsForCard(mtgCard: ApiCardType): string[] {
 ```
 
 ### createSharedDataForCard
-Helper function that sets general data for a card in a set. 
+Helper function that sets the general data for a card in a set. 
 ```tsx
 import { ApiCardType } from '../servertypes/ApiCardType';
 import { SetType } from '../servertypes/SetType';

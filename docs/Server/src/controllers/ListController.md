@@ -90,7 +90,7 @@ async function checkIfOrderItemIsInList(list: ListType, pageValue: number): Prom
 ```
 
 ### checkIfCardHasOrderItem
-Function that returns an **_[OrderItem](../serverTypes)_** object of a card, if given card exists in a list (binder).
+Function that returns an **_[OrderItem](../serverTypes)_** object of a card.
 ```tsx
 import List, { ListModelType } from '../models/List';
 import mongoose, { Types } from 'mongoose';

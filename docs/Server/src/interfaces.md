@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 ## serverInterfaces
-Definition of the interface _Login_.
+Definition of the _Login_ interface.
 
 ```tsx
 interface Login {

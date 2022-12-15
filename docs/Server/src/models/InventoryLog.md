@@ -1,4 +1,4 @@
-Structure for a InventoryLog object in database.
+Structure for a InventoryLog object in the database.
 
 ```tsx
 import mongoose, { Schema } from 'mongoose';

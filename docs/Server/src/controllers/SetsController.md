@@ -68,7 +68,7 @@ async function getSetWithMTGCode(
 ```
 
 ### reloadAllSetsFromMTG
-Function that reloads all sets in database, to add new released sets.
+Function that reloads all sets in the database, to add new released sets.
 ```tsx
 import { getMTGSet, getAllMTGSets } from './MTGController';
 import { Types, Document } from 'mongoose';
@@ -97,7 +97,7 @@ export async function getAllSets(): Promise<Array<Document<unknown, any, SetMode
 ```
 
 ### getAllSetNames
-Function that returns an array of all of the names of sets in database
+Function that returns an array of all of the names of sets in the database
 ```tsx
 import Set, { SetModelType } from '../models/Set';
 import { Types, Document } from 'mongoose';

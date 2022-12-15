@@ -1,4 +1,4 @@
-Custom hook that gets all of the cards in database.
+Custom hook that gets all of the cards in the database.
 
 :::danger HEAVY LOAD
 :::

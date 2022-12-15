@@ -1,4 +1,4 @@
-Custom hook that gets all of the sets in database.
+Custom hook that gets all of the sets in the database.
 
 ```tsx
 import { useQuery, UseQueryResult } from 'react-query';

@@ -1,4 +1,4 @@
-Structure for a user in database.
+Structure for a user in the database.
 
 ```tsx
 import mongoose, { Schema } from 'mongoose';

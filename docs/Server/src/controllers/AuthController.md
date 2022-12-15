@@ -31,7 +31,7 @@ export async function signUp(
 ```
 
 ### signIn
-Function that log in a user if email and password matches with a register in the database.
+Function that log in a user if the email and password matches with a register in the database.
 ```tsx
 import { generateTokens } from './TokenController';
 
