@@ -1,6 +1,6 @@
-This custom hook creates a list for its use in an autocomplete field.
+This custom hook creates an array of cards for its use in an autocomplete field.
 
-```ts
+```tsx
 import { CardType } from '../../types/CardType';
 
 export default function useAutoCompleteCards(cards: CardType[]): Array<{ value: string; label: string }> {

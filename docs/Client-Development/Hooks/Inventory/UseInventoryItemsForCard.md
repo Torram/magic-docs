@@ -1,4 +1,4 @@
-This custom hook gets all of the _inventoryItems_ (cards) in a list (binder) or a set box.
+This custom hook gets all of the _inventoryItems_ in a list (binder) or a set box.
 
 ```tsx
 import { getToken } from '../../tokens/getToken';

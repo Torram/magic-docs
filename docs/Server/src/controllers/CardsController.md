@@ -206,7 +206,7 @@ async function createSKUforCard(card: ApiCardType, set: SetType, foil: boolean, 
 ```
 ## Order
 ### orderCards
-Function that order an array of cards by cards numbers.
+Function that order an array of cards by the card's numbers.
 ```tsx
 import { CardType } from '../servertypes/CardType'
 

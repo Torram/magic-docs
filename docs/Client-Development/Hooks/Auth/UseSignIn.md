@@ -1,4 +1,4 @@
-Custom hook that queries authentication data for a user.
+Custom hook that queries the authentication data for a user.
 
 ```tsx
 import { useMutation, UseMutationResult } from 'react-query';

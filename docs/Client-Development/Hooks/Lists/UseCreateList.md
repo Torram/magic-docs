@@ -1,4 +1,4 @@
-This custom hook is used for a new list (binder) creation.
+This custom hook is used for the creation of a new list (binder).
 
 ```tsx
 import { getToken } from '../../tokens/getToken';

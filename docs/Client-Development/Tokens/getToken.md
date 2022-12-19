@@ -1,21 +1,10 @@
-File with functions to get _token_ from _localStorage_ and updates token.
+File with functions to get the _token_ from the _localStorage_ and updates the token.
 
 ### getTokenFromLocalStorage
-Function that returns stored token and difference in time.
-
-### updateToken
-Function that returns an updated token from server.
-
-### getToken
-Function that returns a stored token and a new updated token if stored token is not valid anymore.
-
+Function that returns the stored token and difference in time.
 ```tsx
 import { differenceInMinutes, parseISO } from 'date-fns';
-import { getTokenAndRefreshAuthHeaders } from '../functions/sharedHeaders';
 import { localStorageItems } from './localStorageItems';
-import { basePath } from '../config/basePath';
-import { saveTokenInLocalStorage } from './saveTokenInLocalStorage';
-import { getRefreshToken } from './getRefreshToken';
 
 function getTokenFromLocalStorage(): [string, number] {
     const token = localStorage.getItem(localStorageItems.token) ?? '';
@@ -25,6 +14,13 @@ function getTokenFromLocalStorage(): [string, number] {
     const difference = differenceInMinutes(today, tokenCreationDate);
     return [token, difference];
 }
+```
+### updateToken
+Function that returns an updated token from the server.
+```tsx
+import { getTokenAndRefreshAuthHeaders } from '../functions/sharedHeaders';
+import { saveTokenInLocalStorage } from './saveTokenInLocalStorage';
+import { basePath } from '../config/basePath';
 
 async function updateToken(currentToken: string, refreshToken: string): Promise<any> {
     const response = await fetch(`${basePath}/auth/token`, {
@@ -36,6 +32,12 @@ async function updateToken(currentToken: string, refreshToken: string): Promise<
     saveTokenInLocalStorage(token);
     return token;
 }
+```
+### getToken
+Function that returns a stored token and a newly updated token if the stored token is not valid anymore.
+
+```tsx
+import { getRefreshToken } from './getRefreshToken';
 
 export async function getToken(): Promise<any> {
     const [token, difference] = getTokenFromLocalStorage();

@@ -1,4 +1,4 @@
-Custom hook that get the specified card of a box or a list (binder).
+Custom hook that get the specified _inventoryItem_ of a box or a list (binder).
 
 ```tsx
 import { useParams } from 'react-router-dom';

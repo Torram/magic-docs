@@ -1,4 +1,4 @@
-Custom hook that calls a price update for all of the cards in a box o a set.
+Custom hook that triggers a price update for all of the cards in a set.
 
 ```tsx
 import { getToken } from '../../tokens/getToken';

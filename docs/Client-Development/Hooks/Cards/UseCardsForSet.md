@@ -1,6 +1,6 @@
-Custom hook that gets all of the cards for a provided setID.
+Custom hook that gets all of the cards in the provided set.
 
-```ts
+```tsx
 import { useQuery, UseQueryResult } from 'react-query';
 import { getTokenAuthHeaders } from '../../functions/sharedHeaders';
 import { basePath } from '../../config/basePath';

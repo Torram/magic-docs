@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-Main file of the client side of project that includes every needed component.
+Main file of the client side of the project that includes every needed component.
 
 ```tsx
 import './App.css';

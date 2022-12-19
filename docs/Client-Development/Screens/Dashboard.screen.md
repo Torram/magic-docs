@@ -1,4 +1,4 @@
-Component that creates a container page for system settings.
+Component that creates the navbar of the system.
 
 ```tsx
 import { useUser } from '../hooks/Auth/useUser';

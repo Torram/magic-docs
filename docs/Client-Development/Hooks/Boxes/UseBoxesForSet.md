@@ -1,4 +1,4 @@
-Custom hook that gets all of the boxes for a set, with the provided setID.
+Custom hook that gets all of the boxes for a provided set.
 
 ```tsx
 import { useQuery, UseQueryResult } from 'react-query';

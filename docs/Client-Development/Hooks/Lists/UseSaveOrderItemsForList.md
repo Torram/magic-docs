@@ -1,4 +1,4 @@
-This custom hook updates a list of _orderItem_ objects in a list (binder).
+This custom hook updates an array of _orderItem_ objects in a list (binder).
 
 ```tsx
 import { getToken } from '../../tokens/getToken';

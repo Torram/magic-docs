@@ -3,7 +3,7 @@ Custom hook that gets all of the cards in the database.
 :::danger HEAVY LOAD
 :::
 
-```ts
+```tsx
 import { useQuery, UseQueryResult } from 'react-query';
 import { getTokenAuthHeaders } from '../../functions/sharedHeaders';
 import { basePath } from '../../config/basePath';

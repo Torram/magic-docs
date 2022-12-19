@@ -1,6 +1,6 @@
-This custom hook gets all of the cards in a list, of the provided listID.
+This custom hook gets all of the cards in the provided list (binder).
 
-```ts
+```tsx
 import { useQuery, UseQueryResult } from 'react-query';
 import { getTokenAuthHeaders } from '../../functions/sharedHeaders';
 import { basePath } from '../../config/basePath';

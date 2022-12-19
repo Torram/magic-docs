@@ -1,4 +1,4 @@
-Component that creates a container for the buttons of settings screen.
+Component that creates a container for the buttons of the settings screen.
 
 ```tsx
 import UpdateDatabaseFromShopifyButton from '../components/ShopifyLogs/UpdateDatabaseFromShopifyButton';

@@ -1,4 +1,4 @@
-Custom hook that gets all of the _orderItems_ (cards) in a list (binder).
+Custom hook that gets all of the _orderItems_ in a list (binder).
 
 ```tsx
 import { getToken } from '../../tokens/getToken';

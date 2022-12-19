@@ -1,22 +1,10 @@
-File with functions to get _refreshToken_ from _localStorage_ and updates refreshToken.
+File with functions to get _refreshToken_ from the _localStorage_ and updates the refreshToken.
 
 ### getRefreshTokenFromLocalStorage
-Function that returns stored refreshToken and difference in time.
-
-### updateRefreshToken
-Function that saves an updated token and refreshToken from server into localStorage.
-
-### getRefreshToken
-Function that returns a stored refreshToken or a new updated refreshToken if stored refreshToken has 25 to 30 days from created.
-
+Function that returns the stored refreshToken and difference in time.
 ```tsx
-import { basePath } from '../config/basePath';
-import { getRefreshAuthHeaders } from '../functions/sharedHeaders';
-import { saveTokenInLocalStorage } from './saveTokenInLocalStorage';
-import { saveRefreshTokenInLocalStorage } from './saveRefreshTokenInLocalStorage';
-import { tokenErrors } from './tokenErrors';
-import { localStorageItems } from './localStorageItems';
 import { differenceInMinutes, parseISO } from 'date-fns';
+import { localStorageItems } from './localStorageItems';
 
 function getRefreshTokenFromLocalStorage(): [string, number] {
     const refreshToken = localStorage.getItem(localStorageItems.refreshToken) ?? '';
@@ -26,6 +14,14 @@ function getRefreshTokenFromLocalStorage(): [string, number] {
     const difference = differenceInMinutes(today, tokenCreationDate);
     return [refreshToken, difference];
 }
+```
+### updateRefreshToken
+Function that saves an updated token and refreshToken from the server into the localStorage.
+```tsx
+import { saveTokenInLocalStorage } from './saveTokenInLocalStorage';
+import { getRefreshAuthHeaders } from '../functions/sharedHeaders';
+import { basePath } from '../config/basePath';
+import { saveRefreshTokenInLocalStorage } from './saveRefreshTokenInLocalStorage';
 
 async function updateRefreshToken(currentRefreshToken: string): Promise<any> {
     const response = await fetch(`${basePath}/auth/refresh_token`, {
@@ -40,6 +36,12 @@ async function updateRefreshToken(currentRefreshToken: string): Promise<any> {
 
     return refreshToken;
 }
+```
+### getRefreshToken
+Function that returns a stored refreshToken or a newly updated refreshToken if the stored refreshToken has 25 to 30 days from created.
+
+```tsx
+import { tokenErrors } from './tokenErrors';
 
 export async function getRefreshToken(): Promise<any> {
     const [refreshToken, difference] = getRefreshTokenFromLocalStorage();

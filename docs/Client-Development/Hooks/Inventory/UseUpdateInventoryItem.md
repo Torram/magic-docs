@@ -1,4 +1,4 @@
-Custom hook that updates value of an _inventoryItem_ (card).
+Custom hook that updates the value of an _inventoryItem_ (card).
 
 ```tsx
 import { getToken } from '../../tokens/getToken';

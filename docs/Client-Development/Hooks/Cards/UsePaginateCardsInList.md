@@ -1,6 +1,6 @@
-This custom hook is used for generate pagination of all of the cards in a list (binder). 
+This custom hook is used for generating the pagination of all of the **[OrderItems](../../Types)** in a list (binder). 
 
-```ts
+```tsx
 import { useMemo } from 'react';
 import { OrderItemType } from '../../types/OrderItemType';
 import { CardType } from '../../types/CardType';

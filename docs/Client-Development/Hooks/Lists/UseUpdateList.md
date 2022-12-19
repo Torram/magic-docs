@@ -1,4 +1,4 @@
-Custom hook that gets the updated list (binder) after we add a card.
+Custom hook that gets the updated list (binder) after we add one or more cards.
 
 ```tsx
 import { getToken } from '../../tokens/getToken';

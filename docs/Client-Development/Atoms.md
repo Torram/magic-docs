@@ -6,7 +6,7 @@ Component to handle multiple _orderItem_ changes.
 ## OrderItemsAtom
 This function is used for order multiple items inside lists (binders).
 
-It's imported from _Recoil_ library. The type of data that uses, is _OrderItemType_, defined in **[types](../types)** folder.
+It's imported from the _Recoil_ library. The type of data that uses, is _OrderItemType_, defined in the **[types](../types)** folder.
 
 ```tsx
 import { atom } from 'recoil';
