@@ -8,7 +8,7 @@ This component is used to generate a button that creates a new box for a set.
 
 ### CreateBoxButton
 
-The function receives a setID of _string_ type and returns a JSX.Element.
+The function receives a setID of _string_ type and returns a the button for box creation.
 
 ```tsx
 import LoadingButton from '../shared/LoadingButton';

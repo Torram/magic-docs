@@ -1,7 +1,7 @@
 File with functions to get the _token_ from the _localStorage_ and updates the token.
 
 ### getTokenFromLocalStorage
-Function that returns the stored token and difference in time.
+Function that returns the stored token and the difference in time.
 ```tsx
 import { differenceInMinutes, parseISO } from 'date-fns';
 import { localStorageItems } from './localStorageItems';

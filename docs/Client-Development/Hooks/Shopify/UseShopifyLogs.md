@@ -1,4 +1,4 @@
-Custom hook that gets all of the logs of movements in Shopify e-commerce inventory.
+Custom hook that gets all of the logs of movements in the Shopify e-commerce inventory.
 
 ```tsx
 import { useQuery, UseQueryResult } from 'react-query';

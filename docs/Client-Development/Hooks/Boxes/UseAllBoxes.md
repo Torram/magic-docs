@@ -1,4 +1,4 @@
-This custom hook is used for get all of the boxes of all sets.
+This custom hook is used for getting all of the boxes of all sets.
 
 ```tsx
 import { useQuery, UseQueryResult } from 'react-query';

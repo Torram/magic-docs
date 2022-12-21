@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-Component that manages all the explorer headers.
+Component that manages all of the explorer headers.
 
 ## Functions
 
@@ -22,7 +22,7 @@ export function getJSONHeaders(): Headers {
 
 ### getTokenAuthHeaders
 
-Function that gets the current authentication token.
+Function that gets the headers of the current authentication token.
 
 ```tsx
 export function getTokenAuthHeaders(token: string): Headers {
@@ -34,7 +34,7 @@ export function getTokenAuthHeaders(token: string): Headers {
 
 ### getRefreshAuthHeaders
 
-Function that gets the new authentication token.
+Function that gets the headers of the new authentication token.
 
 ```tsx
 export function getRefreshAuthHeaders(refreshToken: string): Headers {
@@ -46,7 +46,7 @@ export function getRefreshAuthHeaders(refreshToken: string): Headers {
 
 ### getTokenAndRefreshAuthHeaders
 
-Function that gets the current and the new authentication tokens.
+Function that gets the headers of the current and the new authentication tokens.
 
 ```tsx
 export function getTokenAndRefreshAuthHeaders(token: string, refreshToken: string): Headers {

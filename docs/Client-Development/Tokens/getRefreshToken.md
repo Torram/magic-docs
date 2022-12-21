@@ -1,7 +1,7 @@
 File with functions to get _refreshToken_ from the _localStorage_ and updates the refreshToken.
 
 ### getRefreshTokenFromLocalStorage
-Function that returns the stored refreshToken and difference in time.
+Function that returns the stored refreshToken and the difference in time.
 ```tsx
 import { differenceInMinutes, parseISO } from 'date-fns';
 import { localStorageItems } from './localStorageItems';
@@ -38,7 +38,7 @@ async function updateRefreshToken(currentRefreshToken: string): Promise<any> {
 }
 ```
 ### getRefreshToken
-Function that returns a stored refreshToken or a newly updated refreshToken if the stored refreshToken has 25 to 30 days from created.
+Function that returns a stored refreshToken or a newly updated refreshToken if the stored refreshToken has 25 to 30 days from being created.
 
 ```tsx
 import { tokenErrors } from './tokenErrors';

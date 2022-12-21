@@ -1,4 +1,4 @@
-Custom hook used for manually update values from Shopify e-commerce to database.
+Custom hook used for manually update the values from the Shopify e-commerce to database.
 
 ```tsx
 import { useMutation, useQueryClient, UseMutationResult } from 'react-query';

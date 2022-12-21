@@ -1,4 +1,4 @@
-Function that saves a given token and the token saved in **_[localStorageItems]_** into _localStorage_.
+Function that saves a given token and the actual date in **_[localStorageItems]_** into _localStorage_.
 
 ```tsx
 import { localStorageItems } from './localStorageItems';

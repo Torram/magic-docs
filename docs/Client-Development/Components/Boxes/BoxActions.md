@@ -8,7 +8,7 @@ sidebar_position: 1
 
 This functions takes _<Row\>_, _<Col\>_ and _<Container\>_ from **"react-bootstrap"** module.
 
-This function shows action buttons (as _createBoxButton_ or _UpdatePricesForCardsInSetButton_ ) for a box of a set.
+This function shows buttons for box actions (as _createBoxButton_ or _UpdatePricesForCardsInSetButton_ ) of a box of a set.
 
 ```tsx
 export function BoxActions({ setID }) {

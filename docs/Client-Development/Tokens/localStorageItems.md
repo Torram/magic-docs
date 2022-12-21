@@ -1,4 +1,4 @@
-Object that contains the token and refreshToken for login management.
+Object that contains the token, refreshToken and their dates for login management.
 
 ```tsx
 export const localStorageItems = {
