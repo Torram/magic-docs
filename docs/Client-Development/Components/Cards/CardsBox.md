@@ -8,7 +8,7 @@ This component renders a list of **[BoxCard](./BoxCard)** items.
 
 ### CardsBox
 
-This function receives a list of cards of _CardType_ and returns a JSX.Element that is a list of the cards.
+This function receives a list of cards of _CardType_ and returns an array of the cards included in a box.
 
 ```tsx
 import BoxCard from './BoxCard';

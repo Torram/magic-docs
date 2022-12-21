@@ -1,22 +1,22 @@
-Component that shows the actual value of a card in a list (binder), and allows to change that value.
+Component that shows the actual position value of a card in a list (binder), and allows to change that value.
 
 ## Functions
 
 ### OrderItem
 
-Main function of the component. This function sets the initial state of a card value, and the page that holds it. Creates a container with a _Form_ element with an input for a card's value, an _ErrorIndicator_ element and a _LoadingButton_ for save changes.
+Main function of the component. This function sets the initial state of a card's position value, and the page that holds it. Creates a container with a _Form_ element with an input for a card's position value, an _ErrorIndicator_ element and a _LoadingButton_ for saving changes.
 
 ### checkIfNumberHasDecimalPoint
 
-Local function that checks if a gived number has decimal point.
+Local function that checks if a given number has a decimal point.
 
 ### saveNewValue
 
-Local function that sends the new value or page for a card in a list (binder), to the API.
+Local function that sabes the new position value card in a list (binder).
 
 ### setNewValue
 
-Local function that checks if the new page value for a card is valid before change it.
+Local function that checks if the new position value for a card is valid before changing it.
 
 ```tsx
 import ErrorIndicator from '../shared/ErrorIndicator';

@@ -1,4 +1,4 @@
-Component that reports the changelog of a card quantity, that was manually modified by an user.
+Component that reports the changes of a card quantity, that was manually modified by an user.
 
 ```tsx
 export function InventoryLog({ log }) {

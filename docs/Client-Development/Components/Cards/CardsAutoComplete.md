@@ -2,13 +2,13 @@
 sidebar_position: 2
 ---
 
-This component is a selector of an item, among all the cards in the system.
+This component is a text input with autocomplete function.
 
 ## Functions
 
 ### CardsAutoComplete
 
-This function receives an _onChange_ property as parameter, that is called when a card is selected.
+This function receives an _onChange_ property as parameter and returns the cards selector component.
 
 ```tsx
 import Select from 'react-select';

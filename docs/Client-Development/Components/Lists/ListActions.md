@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-Component that creates a container element with the possible actions for a list (binder), like add a card to the list, update prices for the cards in the list and update quantities from inventory to shopify of the cards in the list.
+Component that creates a container element with the buttons that do actions for a list (binder), like add a card to the list, update prices for the cards in the list and update quantities from the inventory to shopify of the cards in the list.
 
 ```tsx
 import Col from 'react-bootstrap/Col';

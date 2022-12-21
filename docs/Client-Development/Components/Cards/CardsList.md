@@ -8,7 +8,7 @@ This component creates a list of cards, of the provided list (binder), ordered b
 
 ### CardsList
 
-The function receives an array of cards of the _CardType_ and a listId string, and returns a ordered list of card items.
+The function receives an array of cards of the _CardType_ and a listId string, and returns an ordered array of cards.
 
 ```tsx
 import ListCard from './ListCard';

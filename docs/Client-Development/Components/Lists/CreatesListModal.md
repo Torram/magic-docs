@@ -13,7 +13,7 @@ Main function that creates the modal with the input.
 
 ### handlleNameChange
 
-Local function that handles input change with _name_ state.
+Local function that handles input change with a _name_ state.
 
 ### handleSave
 

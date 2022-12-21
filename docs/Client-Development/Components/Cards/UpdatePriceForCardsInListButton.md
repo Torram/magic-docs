@@ -8,7 +8,7 @@ This component creates a button that calls a function to update the prices of al
 
 ### UpdatePriceForCardsInListButton
 
-The function receives a listID string, and calls the hook _useUpdatePricesForCardsInList_ with that listID as parameter. Function returns a button that update the prices of all cards in the provided list.
+The function receives a listID string, and calls the hook _useUpdatePricesForCardsInList_ with that listID as parameter. Function returns a button that updates the prices of all cards in the provided list.
 
 ```tsx
 import ErrorIndicator from '../shared/ErrorIndicator';

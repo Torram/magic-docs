@@ -8,7 +8,7 @@ This component is just used to generate link to a box of a set
 
 ### BoxLink
 
-This function receives a box as parameter, of the _BoxType_ type, and returns a a link to the box.
+This function receives a box as parameter, of the _BoxType_ type, and returns a link to the box.
 
 ```tsx
 import { Link } from 'react-router-dom';

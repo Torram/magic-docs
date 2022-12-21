@@ -8,7 +8,7 @@ This component creates a list of card items, of the physical list (binder), orde
 
 ### CardsListFetch
 
-The function receives a listId string, and calls the hook _useCardsForList_ to get all cards assigned to that list, then, calls another hook, _useOrderItemsForCardsInList_ to order all the items. Finally, calls another hook, _usePaginateCardsInList_, for pagination.
+The function receives a listId string, and calls the hook _useCardsForList_ to get all cards assigned to that list, then, calls another hook, _useOrderItemsForCardsInList_ to order all the cards. Finally, it calls another hook, _usePaginateCardsInList_, for pagination.
 
 ```tsx
 import Container from 'react-bootstrap/Container';

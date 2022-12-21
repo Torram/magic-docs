@@ -1,4 +1,4 @@
-Component that creates a container with a **_[BoxActions](../Boxes/BoxActions)_** element, a list of boxes for the provided _set_.
+Component that creates a container with a **_[BoxActions](../Boxes/BoxActions)_** element and a list of boxes for the provided _set_.
 
 ```tsx
 import Row from 'react-bootstrap/Row';

@@ -2,14 +2,14 @@
 sidebar_position: 1
 ---
 
-This component adds the capacity of edit values of card items.
+This component adds the capacity of edit inventory values of cards.
 
 
 ## Functions
 
 ### InventoryItem
 
-Main function of the component. Includes functions for increase and decrease values of cards or manually set the value.
+Main function of the component. Includes functions for increase and decrease inventory values of cards or manually set the inventory value.
 
 ```tsx
 import ErrorIndicator from '../shared/ErrorIndicator';

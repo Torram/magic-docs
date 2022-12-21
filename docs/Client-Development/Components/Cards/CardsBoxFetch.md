@@ -8,7 +8,7 @@ This component creates a box of cards, of the provided setId.
 
 ### CardsBoxFetch
 
-This function receives a setId string, and uses the imported hook _useCardsforSet_ to get all cards in the provided set.
+This function receives a setId string, and uses the imported hook _useCardsforSet_ to get all cards of the provided set.
 
 ```tsx
 import { useCardsForSet } from '../../hooks/Cards/useCardsForSet';

@@ -1,4 +1,4 @@
-Component that creates a list of **_[SetRow](./SetRow)_** elements.
+Component that creates an array of **_[SetRow](./SetRow)_** elements.
 
 ```tsx
 import { useAllBoxes } from '../../hooks/Boxes/useAllBoxes';

@@ -2,14 +2,14 @@
 sidebar_position: 10
 ---
 
-This component creates a button that sets the values of cards in shopify 'El Bazaar TCG' shop for cards in the current list (binder).
+This component creates a button that sets the values of cards in the shopify 'El Bazaar TCG' e-shop for the cards in the current list (binder).
 
 ## Functions
 
 ### UpdateShopifyValuesForListButton
 
 The function receives a listID string, and calls the hook _useUpdateShopifyValuesForList_, with the listID as parameter.
-Function returns a button element that updates quantities to shopify inventory.
+Function returns a button that updates the quantities to the shopify inventory.
 
 ```tsx
 import ErrorIndicator from '../shared/ErrorIndicator';
