@@ -12,7 +12,7 @@ Local function that checks if a given number has a decimal point.
 
 ### saveNewValue
 
-Local function that sabes the new position value card in a list (binder).
+Local function that saves the new position value card in a list (binder).
 
 ### setNewValue
 

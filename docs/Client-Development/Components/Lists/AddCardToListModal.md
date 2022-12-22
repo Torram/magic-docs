@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-This component creates a modal that shows an input that searches for a specified card.
+This component creates a modal that shows an input that searches for a specific card.
 
 ## Functions
 

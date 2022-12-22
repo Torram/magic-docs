@@ -8,8 +8,8 @@ This component creates a button that sets the values of cards in the shopify 'El
 
 ### UpdateShopifyValuesForListButton
 
-The function receives a listID string, and calls the hook _useUpdateShopifyValuesForList_, with the listID as parameter.
-Function returns a button that updates the quantities to the shopify inventory.
+The function receives a listID string, and calls the hook _useUpdateShopifyValuesForList_, with the listID as a parameter.
+The function returns a button that updates the quantities to the shopify inventory.
 
 ```tsx
 import ErrorIndicator from '../shared/ErrorIndicator';

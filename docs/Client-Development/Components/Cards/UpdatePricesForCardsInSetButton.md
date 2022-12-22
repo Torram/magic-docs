@@ -8,7 +8,7 @@ This component creates a button that calls a function to update the prices of al
 
 ### UpdatePriceForCardsInSetButton
 
-The function receives a setID string, and calls the hook _useUpdatePricesForCardsInSet_ with that setID as parameter. Function returns a button that updates the prices of all cards in the provided set.
+The function receives a setID string, and calls the hook _useUpdatePricesForCardsInSet_ with that setID as parameter. The function returns a button that updates the prices of all cards in the provided set.
 
 ```tsx
 import { useUpdatePricesForCardsInSet } from '../../hooks/Cards/useUpdatePricesForCardsInSet';
