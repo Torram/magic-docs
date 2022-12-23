@@ -8,7 +8,7 @@ This component generates a card item for the **[CardsList](./CardsList)** compon
 
 ### ListCard
 
-This function receives a card parameter, of CardType; an inventoryItem, of InventoryItemType and a listId string. The functions returns a _Row_ element with the most important data of the card.
+This function receives a card parameter, of CardType; an inventoryItem, of InventoryItemType and a listId string. The function returns a _Row_ element with the most important data of the card.
 
 ```tsx
 import Col from 'react-bootstrap/Col';

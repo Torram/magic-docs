@@ -9,7 +9,7 @@ Similar to the previous component, this component creates a button that sets the
 ### UpdateShopifyValuesForSetButton
 
 The function receives a setID string, and calls the hook _useUpdateShopifyValuesForSet_, with the setID as a parameter.
-The function returns a button that updates quantities to the shopify inventory.
+The function returns a button that updates the quantities to the shopify inventory.
 
 ```tsx
 import ErrorIndicator from '../shared/ErrorIndicator';
