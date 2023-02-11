@@ -131,7 +131,7 @@ export async function getUserByMail(
 
 ### generateDataResponse
 
-Helper function that instances **[user]('../models/user')** data structure for API response in this controller.
+Helper function that instances **[user]('/docs/Server/src/models/User')** data structure for API response in this controller.
 
 ```tsx
 import { UserType } from "../servertypes/UserType";
