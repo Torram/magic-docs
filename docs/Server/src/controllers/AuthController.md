@@ -80,7 +80,7 @@ export async function signIn(
 
 ## Queries
 
-Function that gets a **[user]('../models/user')** registry from database, where id matches.
+Function that gets a **[user](../models/user)** registry from database, where id matches.
 
 ### getUserById
 
@@ -101,7 +101,7 @@ export async function getUserByID(
 
 ### getUserByMail
 
-Function that gets a **[user]('../models/user')** registry from database, where email matches.
+Function that gets a **[user](../models/user)** registry from database, where email matches.
 
 ```tsx
 import User, { UserModelType } from "../models/User";
@@ -131,7 +131,7 @@ export async function getUserByMail(
 
 ### generateDataResponse
 
-Helper function that instances **[user]('/docs/Server/src/models/User')** data structure for API response in this controller.
+Helper function that instances **[user](../models/USer)** data structure for API response in this controller.
 
 ```tsx
 import { UserType } from "../servertypes/UserType";
